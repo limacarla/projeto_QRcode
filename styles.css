@@ -11,11 +11,11 @@ body {
     align-items: center;
     justify-content: center;
     padding: 15px;
-    padding-top: 100px;
+    min-height: 100vh;
 }
 
-#qrcode {
-    width: 300px;
+.container {
+    max-width: 300px;
     padding: 1em;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -27,6 +27,7 @@ body {
 .qrcode-img {
     align-items: center;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .conteudo-h3 {
